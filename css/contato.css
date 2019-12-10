@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+*{
+	margin:0px auto;
+	font-family:arial;
+	font-size:16px;
+}
+
+body{
+	background-color: gray;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+header{
+	background-color: black;
+	height: 55px;
+}
+header img{
+	width: 100px;
+}
+nav{
+	padding-left: 300px; /*Distância pra esquerda*/		
+	display: inline-block;
+	vertical-align: middle;
+}
+#nav{
+	margin:0;
+	padding:0;
+	width:auto;	
+	list-style:none;
+}
+#nav li{
+	width:200px;
+	padding:0px;
+	margin:0;
+	position:relative;
+	float:left;
+	text-align:center;
+	height:35px;
+}
+#nav li a{
+	display:block;
+	text-decoration:none;
+	padding:2px;
+	background-color:black;
+	font-family:Verdana;
+	font-weight:bold;
+	color:white;	
+	border-right:#999999 thin solid;
+}
+#nav a:hover{
+	color:green;
+}
+#nav li ul{
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:30px;
+	display:none;
+	left: 0;
+	background-color:black;	
+}
+#nav li ul li a{
+	font-size: 10.5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right:none;
+}
+#nav li:hover ul{
+	display:block;
+}
+#nav li ul li{
+	display: block;
+}
+#nav li#home{
+	border:none;
+}
+#corpo{
+	background-color: #f3f3f3;
+}
+#conteudo{
+	padding-top: 32px;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+h1{
+	padding-top: 18px;
+	vertical-align: top;
+	font-family: Arial;
+	border-bottom: 2px solid black;
+	color:#333333;
+}
+h2{
+	padding-top: 50px;
+	color:#333333;
+	font-family: verdana;
+	font-size:20px;
+}
+#conteudo p{	
+	font-family: verdana;
+	font-size:15;
+	color:#333333;
+}
+form{
+	padding-top: 50px;
+	display: block;
+	padding-bottom:90px;
+	margin-top: 0px;
+}
+form p{
+	font-family: verdana;
+	margin-bottom: -10px;
+}
+#btnenviar{
+	margin-top: 10px;
+	background-color: #696969;
+	color: #fff;
+	height: 25px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border: 1px solid #696969;
+}
+
+
+footer{
+	background-color: #363636;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left:0px;
+	margin-right:0px;
+}
+footer p{
+	color: #f3f3f3;
+	font-family: Verdana;
+	font-size: 11.5px;
+	text-align: left;
+	margin-left: 35px;
+}

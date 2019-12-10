@@ -1,0 +1,625 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Segurança da Informação - Tree</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/seguranca.css">
+</head>
+
+<body>	
+	<header>
+		<a href="sobre.html"><img src="img/tree.png"></a>
+		<nav>
+			<ul id="nav">
+				<li id="home"><a href="index.html"><strong>INÍCIO</strong></a></li>
+				<li id="sobre"><a href="sobre.html"><strong>SOBRE</strong></a></li>
+				<li>
+					<a href="#">CONHEÇA</a>
+					<ul>
+						<li><a href="web.html">DESENVOLVIMENTO WEB</a></li>
+						<li><a href="governanca.html">GOVERNANÇA DE TI</a></li>
+						<li><a href="#">SEGURANÇA DA INFORMAÇÃO</a></li>
+						<li><a href="sistema.html">SISTEMA DE INFORMAÇÃO</a></li>
+						<li><a href="jogos.html">TÓPICOS EM JOGOS DIGITAIS</a></li>
+						<li><a href="topicos.html">TÓPICOS EMERGENTES</a></li>
+					</ul>
+				</li>				
+				<li><a href="contato.html"><strong>CONTATO</strong></a></li>
+			</ul>
+		<nav>
+	</header>
+	<nav id="menu">
+		<ul>
+			<li> <a href="#seguranca">SEGURANÇA DA INFORMAÇÃO</a></li>
+			<li class="class"> <a href="#conceito">Conceito</a></li>
+			<li class="class"> <a href="#backup">Backup</a></li>
+			<li> <a href="#itil">ITIL</a></li>
+			<li class="class"> <a href="#praticas">Melhores Práticas</a></li> <padding left 1px>
+			<li class="class"> <a href="#objetivos">Objetivos</a></li>
+			<li class="class"> <a href="#organizações">Organizações Envolvidas</a></li>
+			<li class="class"> <a href="#estrutura">Estrutura</a></li>
+			<li class="class"> <a href="#processos">Processos</a></li>
+			<li class="class"> <a href="#beneficios">Benefícios</a></li>
+			<li class="class"> <a href="#problemas">Possíveis Problemas</a></li>
+			<li class="class"> <a href="#certificação">Vantangens Certificação</a></li>
+			<li> <a href="#criptografia">CRIPTOGRAFIA</a></li>
+			<li class="class"> <a href="#serviços">Serviços Oferecidos</a></li>
+			<li> <a href="#gpo">GPO</a></li>
+			<li> <a href="#wlan">REDES WIRELESS WLAN</a></li>
+			<li class="class"> <a href="#ameaças">Principais Ameaças</a></li>
+			<li class="class"> <a href="#segurança">Segurança</a></li>
+			<li class="class"> <a href="#gerenciamento">Gerenciamento</a></li>
+			<li class="class"> <a href="#dicas">Dicas</a></li>
+			<li> <a href="#engenharia">ENGENHARIA SOCIAL</a></li>
+			<li class="class"> <a href="#engenheiro">Engenheiro Social</a></li>
+			<li class="class"> <a href="#vulnerabilidade">Vulnerabilidades das Vítimas</a></li>
+			<li class="class"> <a href="#dica">Dicas</a></li>
+		</ul>
+	</nav>
+		
+	<nav id="corpo">
+			<section id="seguranca"><h1><center class="center">Segurança da Informação</center></h1>	
+			</section>
+			<section id="conceito"><b>Conceito</b>
+			<br>
+			<p>Segurança da informação é a preservação e proteção das informações no computador de um indivíduo ou organização, de pessoas mal-intencionadas com o objetivo de furtar, destruir ou sabotar essas informações, ou até para evitar erros e causas da natureza.</p> 
+			<br>
+			<ul>
+			Suas características básicas são:
+			<br>
+			<ul><i>Confidencialidade</i> – acesso limitado às informações, autorizado pelo proprietário.
+			<br>
+			<i>Integridade</i> – garante que as informações manipuladas mantenham suas características originais, estabelecidas pelo proprietário.
+			<br>
+			<i>Disponibilidade</i> – garante que a informação esteja sempre disponível para os usuários autorizados pelo proprietário.</ul>
+			</ul>
+			<br>
+			<p>Para haver uma melhor segurança, é preciso ter política de segurança, assim garante que os princípios estabelecidos, atinjam o nível desejado pelo indivíduo ou organização. Para isso precisa ser verificado: riscos associados à falta de segurança, benefícios e custos de implementação dos mecanismos.</p>
+			<br>
+			<ul>
+			Todo sistema computacional ou de comunicação são vulneráveis a intrusões:
+			<br>
+			<ul><i>Segurança em redes</i> -  criptografadas, autenticação, protocolos e plataformas;
+			<br>
+			<i>Segurança de sistemas</i> – firewall, vírus, cavalos de troia e vermes.</ul>
+			</ul>
+			<br>
+			<img src="img/segurança/conceito.png">
+			</section>
+			
+			<section id="backup"><b>Backup</b>
+			<br>
+			<p>São cópias de segurança das informações de um computador para outro dispositivo, assim provendo segurança, caso ocorra a perda dessas informações. As cópias de segurança têm que ser uma rotina constante.</p>
+			<br>
+			<p>O backup tem que ser feito com certeza de que está perfeito, pois o mais importante do backup, é a restauração das informações. A restauração pode ser feita completa, ou algum determinado arquivo necessário.</p> 
+			<br>
+			<p>É necessário manter pelo menos um servidor reserva, seja físico ou virtual, caso aconteça algo com o original, os problemas podem acontecer não somente nas informações, mas nos computadores e ou servidores também.</p>
+			<br>
+			<p><i>Mídia física</i> – as cópias podem ser feitas em diversos tipos de mídia física como CD-ROM, DVD, HD (disco rígido), USB, fitas magnéticas. Para maior segurança devem ser feitas mais de uma cópia de segurança e essas devem ser guardadas em lugares diferentes e distantes do local da empresa, porque caso aconteça algum acidente como roubo na empresa, incêndio ou até mesmo acidente da natureza, algumas cópias estarão seguras, se estiverem somente no local da empresa serão destruídas junto com as informações originais, caso isso aconteça, dependendo do nível de destruição, pode até levar a empresa à falência.</p>
+			<br>
+			<p><i>Nuvem</i> – as cópias são feitas online, ou seja, via internet. Ficam localizadas em nuvem, que pode ser própria da empresa ou serviço disponibilizado por terceiros, essas cópias são as mais seguras e são disponibilizadas quando necessárias, mas mesmo assim, não pode confiar somente em uma cópia, deve-se efetuar cópias em servidores diferentes ou até mesmo em mais de uma mídia física. Nesse caso precisa ter um sistema de backup.</p>
+			<br>
+			<img src="img/segurança/backup.png">
+			</section>
+			
+			<section id="itil"><b><center>ITIL (INFORMATION TECHNOLOGY INFRASTUCTURE LIBRARY)</b></center>
+			<br>
+			<p>ITIL em português é Biblioteca da Infraestrutura de Tecnologia da Informação, e define as melhores práticas e procedimentos, abordagem para o Gerenciamento de Serviços da TI.</p>
+			<br>
+			<ul>
+			- ITIL não é metodologia;
+			<br>
+			- Não é o objetivo, objetivo é o gerenciamento de serviços de TI;
+			<br>
+			- Não é um padrão, o que é bom para um negócio pode não ser bom para outro;
+			<br>
+			- É escalável, pode ser utilizado em qualquer empresa de qualquer tamanho.
+			</ul>
+			<br>
+			<img src="img/segurança/itil.png">
+			</section>
+			
+			<section id="praticas"><b>Melhores Práticas</b>
+			<br>
+			<p>São baseadas nas melhores experiências dos profissionais qualificados e especializados em um determinado campo.</p>
+			<br>
+			<ul>
+			- Servem de inspiração;
+			<br>
+			- Sugerem onde é possível chegar;
+			<br>
+			- Sugerem para quê;
+			<br>
+			- Sugerem porquê.
+			</ul>
+			<br>
+			<img src="img/segurança/praticas.jpg">
+			<br>
+			</section>
+			
+			<section id="objetivos"><b>Objetivos</b>
+			<br>
+			<ul>
+			- Reduzir custos;
+			<br>
+			- Aumentar disponibilidades;
+			<br>
+			- Ajustar a capacidade;
+			<br>
+			- Aumentar a eficiência e eficácia;
+			<br>
+			- Melhorar a escalabilidade;
+			<br>
+			- Reduzir riscos.
+			</ul>
+			<br>
+			<img src="img/segurança/objetivos.jpg">
+			<br>
+			</section>
+			
+			<section id="organizações"><b>Organizações Envolvidas</b>
+			<br>
+			<ul>
+			- Office Of Government Commerce (OGC): Corpo do Governo – garante a qualidade na estrutura atual e futura;
+			<br>
+			- itSMF (it Service Management Forum): Parceiro Estratégico – gerencia a definição e execução em nome da OGC. Coordena os institutos de certificação e treinamento;
+			<br>
+			- EXIN e ISEB: Institutos de Exame – gerencia a definição e execução dos exames de certificação. Credencia os centros de treinamento.
+			<br>
+			- Provedores de Treinamento: Institutos de Treinamento – organizações credenciadas para oferecer treinamento em ITIL.
+			</ul>
+			<br>
+			<img src="img/segurança/organizações.jpg">
+			<br>
+			</section>
+			
+			<section id="estrutura"><b>Estrutura</b>
+			<br>
+			<img src="img/segurança/estrutura.png">
+			</section>
+			
+			<section id="processos"><b>Processos</b>
+			<br><br>
+			<ul>
+			<i>Suporte ao TI:</i>
+			<br>
+			<ul>- Gerenciamento de incidente;
+			<br>
+			- Gerenciamento de problema:
+			<br>
+			- Gerenciamento de mudança;
+			<br>
+			- Gerenciamento de liberação;
+			<br>
+			- Gerenciamento de configuração.</ul>
+			</ul>
+			<br><br>
+			<ul>
+			<i>Entrega do serviço:</i>
+			<br>
+			<ul>- Gerenciamento do nível do serviço;
+			<br>
+			- Gerenciamento de capacidade;
+			<br>
+			- Gerenciamento da disponibilidade;
+			<br>
+			- Gerenciamento da continuidade dos serviços de TI;
+			<br>
+			- Gerenciamento do financeiro.</ul>
+			</ul>
+			<br>
+			<img src="img/segurança/processos.png">
+			</section>
+			
+			<section id="beneficios"><b>Benefícios</b>
+			<br><br>
+			<b>Benefícios Financeiros</b>
+			<br>
+			<ul>
+			- Melhora dos recursos humanos mais caros;
+			<br>	
+			- Redução de custos é mais fácil de identificar;
+			<br>
+			- Identifica e remove as causas das falhas nos serviços;
+			<br>
+			- Custos das mudanças sem sucesso são reduzidos;
+			<br>
+			- Os serviços são desenhados para atingir metas de qualidade;
+			<br>
+			- Melhor gerenciamento de capacidade;
+			<br>
+			- Despesas com a continuidade dos serviços são mais apropriadas;
+			<br>
+			- Melhor justificativa de custo para a infraestrutura e serviços de TI.
+			</ul>
+			<br>
+			<img src="img/segurança/financeiros.png">
+			<br><br>
+			<b>Benefícios Operacionais</b>
+			<br>
+			<ul>
+			- Transição de reativo para proativo;
+			<br>
+			- Requisições de clientes são resolvidas mais rapidamente;
+			<br>
+			- Redução no número de incidentes;
+			<br>
+			- Melhor gerenciamento do conhecimento;
+			<br>
+			- Redução da dependência sobre as pessoas chaves;
+			<br>
+			- Os incidentes maiores são atendidos de forma mais eficiente;
+			<br>
+			- Melhoria no gerenciamento de nível do serviço e carga de trabalho;
+			<br>
+			- Riscos na infraestrutura e dependências são facilmente identificáveis;
+			<br>
+			- Redução na indisponibilidade dos serviços vitais para o negócio;
+			<br>
+			- Redução no número de mudanças com falhas não autorizadas.
+			</ul>
+			<br>
+			<img src="img/segurança/operacionais.jpg">
+			<br>
+			<b>Benefícios de Inovação</b>
+			<br>
+			<ul>
+			- Áreas com necessidade de melhorias são identificadas mais facilmente;
+			 <br>
+			- Aumento na flexibilidade no negócio através do entendimento do TI sobre as necessidades que o negócio possui;
+			<br>
+			- Aumento da flexibilidade e adaptabilidade na provisão de serviços;
+			<br>
+			- Resposta mais rápida para as mudanças de mercado;
+			<br>
+			- Fornece um framework para um benchmarking competitivo;
+			<br>
+			- Redução dos custos associados com a “reinvenção da roda”.
+			</ul>
+			<br>
+			<img src="img/segurança/inovação.png">
+			<br><br>
+			<b>Benefícios aos Colaboradores</b>
+			<br>
+			<ul>
+			- Regras e responsabilidades são claramente definidas e a equipe sabe o que será esperada dela;
+			 <br>
+			- Melhoria na equipe de trabalho e comunicação;
+			<br>
+			- Aumento da produtividade e maior foco nas prioridades do negócio;
+			<br>
+			- Aumento da motivação e satisfação no trabalho.
+			</ul>
+			<br>
+			<img src="img/segurança/colaboradores.png">
+			<br>
+			</section>
+
+			<section id="problemas"><b>Possíveis Problemas</b>
+			<br>
+			<ul>
+			- Falta de patrocínio, comprometimento e entendimento;
+			<br>
+			- Cultura da empresa;
+			<br>
+			- Excesso de expectativa;
+			<br>
+			- Problemas na gestão do projeto;
+			<br>
+			- Controle fraco ou incompatível com os objetivos do processo e do projeto.
+			</ul>
+			<br><img src="img/segurança/problemas.jpg">
+			<br>
+			</section>
+
+			<section id="certificação"><b>Vantagens de ser um Profissional Certificado</b>
+			<br>
+			<ul>
+			- Ajuda no conhecimento adicional e habilidade para executar as funções no trabalho atual;
+			<br>
+			- Adquire uma verificação formal do conhecimento por uma entidade terceira;
+			<br>
+			- Entendimento de uma terminologia comum na indústria;
+			<br>
+			- Reconhecimento profissional e networking com outros profissionais.
+			</ul>
+			<br>
+			<img src="img/segurança/certificação.jpg">
+			<br>
+			</section>
+			
+			
+			<section id="criptografia"><b><center>CRIPTOGRAFIA</b></center>
+			<br>
+			<p>A Criptografia em segurança da informação são conceitos e técnicas usadas para codificar informações, de tal forma de que somente o destinatário, emissor ou autorizado possam acessá-las, evitando a interceptação de terceiros. Os componentes básicos para o ciframento de uma mensagem são o algoritmo e a chave. </p>
+			<br>
+			<p>Existem dois tipos de criptografia:</p>
+			<br>
+			<ul>
+			<i>Criptografia Simétrica</i>
+			<br>
+			<ul>Utiliza a mesma chave compartilhada para cifrar e para decifrar.
+			<br>
+			O algoritmo simétrico exige que a chave seja secreta e é requerido um canal seguro que permita a um usuário transmitir a chave a seu interlocutor.</ul>
+			</ul>
+			<br>
+			<ul>
+			<ul>Vantagem:
+			<br>
+			- Rapidez na criptografia e decifragem da informação.</ul>
+			</ul>
+			<br>
+			<ul>
+			<ul>Desvantagem:
+			<br>
+			- A chave deve ser trocada entre as partes e armazenada de forma segura, o q nem sempre é garantido.
+			<br>
+			- Não garante a identidade de quem enviou ou recebeu a mensagem;
+			<br>
+			- Cada par necessita de uma chave para se comunicar de forma segura.</ul>
+			</ul>
+			<br>
+			<img src="img/segurança/simetrica.png">
+			<br>
+			<ul>
+			<i>Criptografia Assimétrica</i>
+			<br>
+			<ul>São necessáras duas chaves, uma para cifrar (o algoritmo assimétrico tona a chave pública - destinatário e remetente) e outra para decifrar (chave privada - destinatário), as chaves são geradas em pares.</ul>
+			</ul>
+			<br>
+			<img src="img/segurança/assimetrica.png">
+			<br>
+			</section>
+
+			<section id="serviços"><b>Serviços Oferecidos</b>
+			<br>
+			<ul>
+			<i>- Disponibilidade</i>: garante que uma informação estará disponível para acesso no momento desejado;
+			<br>
+			<i>- Integridade</i>: garante que o conteúdo da mensagem não foi alterado;
+			<br>
+			<i>- Controle de acesso</i>: garante que o conteúdo da mensagem será acessado somente por usuários autorizados;
+			<br>
+			<i>- Autenticidade da origem</i>: garante a identidade de quem está enviando a mensagem;
+			<br>
+			<i>- Não-repudiação</i>: previne que alguém negue o envio e/ou recebimento da mensagem;
+			<br>
+			<i>- Privacidade (confidencialidade ou sigilo)</i>: impede que ou usuários não autorizados tenham acesso ao conteúdo da mensagem, garantindo que apenas a origem e o destino tenham conhecimento.
+			</ul>
+			<br>
+			<img src="img/segurança/serviços.png">
+			<br>
+			</section>
+			
+			<section id="gpo"><b><center>GPO (GROUP POLICY OBJECT)</b></center>
+			<br>
+			<p>GPO é diretiva de grupo (conjunto de regras) que pode ser utilizada para facilitar o gerenciamento, configuração e segurança de computadores e usurários, pode ser feita em rede ou local. A ferramenta utilizada para o gerenciamento em rede é o Snap-in “Group Policy Management” e localmente o gpedit.msc.</p>
+			<br>
+			<ul>
+			Podem ser vinculadas no:
+			<br>
+			<ul><b><i>Site</b></i>: o mais alto nível, todas configurações serão aplicadas aos usuários e computadores do site.
+			<br>
+			<b><i>Domínio</b></i>: segundo nível, configuração afetarão os usuários e computadores dentro do domínio. Os computadores fora do domínio, são configurados localmente.
+			<br>
+			<b><i>OU</b></i>: afetarão os usuários e computadores dentro das OUs.</ul>
+			</ul>
+			<br>
+			<p>As diretivas podem ser aplicadas em computadores, independentes do usuário que utilizam o computador, ou podem ser aplicadas aos usuários, independente dos computadores que irão utilizar.</p>
+			<br>
+			<img src="img/segurança/gpo.jpg">
+			<br>
+			<ul>Existem mais de 3.000 diretivas, segue alguns exemplos:
+			<br>
+			<ul>
+			- bloquear USB;
+			<br>
+			- esconder um HD;
+			<br>
+			- não deixar gravar CD/DVD;
+			<br>
+			- definir papel de parede;
+			<br>
+			- proibir acesso ao painel de controle;
+			<br>
+			- instalação de softwares;
+			<br>
+			- configuração de acesso a diretórios e pastas da rede;
+			<br>
+			- remoção de gerenciador de tarefas;
+			<br>
+			- configuração do tempo do login;
+			<br>
+			- configuração de senhas;
+			<br>
+			- configuração do home site nos browsers,;
+			<br>
+			- configuração de acesso a aplicativos;
+			<br>
+			- bloqueio de uso a impressoras.
+			</ul>
+			</ul>
+			<br>
+			<img src="img/segurança/gpo.png">
+			<br>
+			</section>
+			
+			<section id="wlan"><b><center>REDES WIRELLES (WLAN)</b></center>
+			<br>
+			<p>Com a rede Wireless pode-se ter mais mobilidade, conectividade a qualquer hora e lugar, apesar da rede com fio ser mais segura, também está ameaçada, com um simples aparelho telefônico consegue acessar a rede. A WLAN deve ser segura, confiável e gerenciável, porém, na sua adoção existem barreiras como:</p>
+			<br>
+			<ul>
+			- Segurança;
+			<br>
+			- Implantação e gerenciamento;
+			<br>
+			- Custo total (TCO)
+			</ul>
+			<br>
+			<img src="img/segurança/wlan.jpg">
+			<br>
+			</section>
+			
+			<section id="ameaças"><b>Principais Ameaças</b>
+			<br>
+			<ul>
+			<i>Rogue AP</i> – funcionários criam porta de entrada para rede corporativa;
+			<br>
+			<i>Ad Hoc</i> – conexões cliente-cliente, não passam pelos mecanismos de segurança
+			<br>
+			<i>Ataques DoS</i> – hackers maliciosos utilizam a WLAN para interromper serviços críticos
+			<br>
+			<i>APs externos</i> – funcionários se conectam a uma WLAN externa e abrem uma porta de entrada para a rede corporativa. 
+			</ul>
+			<br>
+			<img src="img/segurança/ameaças.jpg">
+			<br>
+			</section>
+			
+			<section id="segurança"><b>Segurança</b>
+			<br>
+			<ul>
+			<i>- Privacidade</i>: Sniffer Wireless pode ver todos os pacotes que trafegam na WLAN;
+			<br>
+			<i>- Autenticação</i>: qualquer pessoa na área de cobertura do AP pode ter acesso à WLAN;
+			<br>
+			<i>-Objetivo</i>: a segurança da WLAN deve ser equivalente à rede cabeada.
+			</ul>
+			<br>
+			<img src="img/segurança/segurança.jpg">
+			<br>
+			</section>
+			
+			<section id="gerenciamento"><b>Gerenciamento</b>
+			<br><br>
+			<ul><i>Características:</i>
+			<br>
+			<ul>- Planejamento, configuração , monitoração, localização, IDS, depuração de problemas;
+			<br>
+			- Mapas hierárquicos;
+			<br>
+			- Interface GUI amigável, templates;
+			<br>
+			- Aplicação de políticas de rede (QoS, segurança. RRM...)</ul>
+			</ul>
+			<br>
+			
+			<ul><i>Benefícios:</i>
+			<br>
+			<ul>- OPEX (operational expenditure – despesas operacionais) e CAPEX (capital expenditure – despesas de capital) menores;
+			<br>
+			- Melhor visibilidade e controle da área coberta;
+			<br>
+			- Funcionalidade comum a todo o sistema wireless.</ul>
+			</ul>
+			<br>
+			<img src="img/segurança/gerenciamento.jpg">
+			<br>
+			</section>
+			
+			<section id="dicas"><b>Dicas</b>
+			<br>
+			<ul>
+			- Não confie na criptografia WEP básica; sempre use senhas seguras;
+			<br>
+			- Segurança precisa ser implementada no primeiro momento (faz parte do processo de instalação)
+			<br>
+			- Empregados vão instalar seus próprios equipamentos WLAN, havendo assim comprometimento da segurança da sua rede;
+			<br>
+			- Mais vulnerabilidade a hackers e War Driving.
+			</ul>
+			<br>
+			<img src="img/segurança/dicas.jpg">
+			<br>
+			</section>
+
+			<section id="engenharia"><b><center>ENGENHARIA SOCIAL</b></center>
+			<br>
+			<p>Engenharia Social é a manipulação de pessoas para ter acessos não autorizados em informações confidenciais e computadores, ou seja, é um método de ataque.</p>
+			<br>
+			<p>Na organização acredita-se que a segurança da informação é um problema unicamente da área de TI, que falta preparação e capacitação dos profissionais.</p>
+			<br>
+			<img src="img/segurança/engenharia.png">
+			<br>
+			</section>
+			
+			<section id="engenheiro"><b>Engenheiro Social</b>
+			<br>
+			<p>O engenheiro social é a pessoa que vai persuadir sua vítima para obter a informação, ele tem um perfil em que geralmente é muito agradável, educado, simpático, carismático, flexível, criativo e dinâmico e sua conversa é envolvente. Um dos mais conhecidos engenheiro social é o Kevin Mitnink.</p>
+			<br>
+			<ul><i>Motivação:</i>
+			<br>
+			<ul>- curiosidade; 
+			<br>
+			- ego; 
+			<br>
+			- obter vantagem, conhecimento e informações valiosas; 
+			<br>
+			- vingança; 
+			<br>
+			- testar conhecimento e sistema; 
+			<br>
+			- desfalques financeiros; 
+			<br>
+			- destruir informações...</ul>
+			</ul>
+			<br>
+			<ul><i>Técnicas utilizadas:</i>
+			<br>			
+			<ul>-  ataque por telefone;
+			<br>
+			- coleta de informações no lixo;
+			<br>
+			- quebra de senhas;
+			<br>
+			- engenharia social inversa (sabotagem, propaganda e ajuda)
+			<br>
+			- Footprint;
+			<br>
+			- ataque online.</ul>
+			</ul>
+			<br>
+			<img src="img/segurança/engenheiro.jpg">
+			<br>
+			</section>
+			
+			<section id="vulnerabilidade"><b>Vulnerabilidades das vítimas:</b>
+			<br>
+			<ul>
+			- vontade de ser útil;
+			<br>
+			- necessidade de amizades;
+			<br>
+			- medo de autoridades;
+			<br>
+			- ser persuadido facilmente;
+			<br>
+			- estar desmotivado;
+			<br>
+			- auto confiança.
+			</ul>
+			<br>
+			<img src="img/segurança/vulnerabilidade.jpg">
+			<br>
+			</section>
+			
+			<section id="dica"><b>Dicas</b>
+			<br>
+			<ul>
+			- não use senhas fáceis;
+			<br>
+			- não passe suas senhas a ninguém;
+			<br>
+			- utilize uma senha para cada e-mail;
+			<br>
+			- não aceite ajuda de estranhos e nem passe informações da empresa.	
+			</ul>
+			<br>
+			<img src="img/segurança/dica.jpg">
+			<br>
+			</section>
+			
+	</nav>
+	<footer id="rodape"><p>Todos os direitos reservados.</p></footer>
+</body>
+</html>

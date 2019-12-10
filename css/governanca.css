@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+*{
+	margin:0px auto;	
+	font-family:arial;
+	font-size:16px;
+}
+
+body{
+	background-color: #f3f3f3;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+header{
+	background-color: black;
+	height: 55px;
+	position: fixed;
+	padding-right: 144.5px;
+}
+header img{
+	width: 100px;
+}
+nav{
+	padding-left: 300px; /*Distância pra esquerda*/	
+	display: inline-block;
+	vertical-align: middle;
+}
+#nav{
+	margin:0;
+	padding:0;
+	width:auto;	
+	list-style:none;
+}
+#nav li{
+	width:200px;
+	padding:0px;
+	margin:0px;
+	position:relative;
+	float:left;
+	text-align:center;
+	height:35px;
+}
+#nav li a{
+	display:block;
+	text-decoration:none;
+	padding:2px;
+	background-color:black;
+	font-family:Verdana;
+	font-weight:bold;
+	color:white;	
+	border-right:#999999 thin solid;
+}
+#nav a:hover{
+	color:green;
+}
+#nav li ul{
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:30px;
+	display:none;
+	left: 0;
+	background-color:black;	
+}
+#nav li ul li a{
+	font-size: 10.5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right:none;
+}
+#nav li:hover ul{
+	display:block;
+}
+#nav li ul li{
+	display: block;
+}
+
+#corpo{
+	background-color: #f3f3f3;
+	padding: 80px;
+	padding-top: 10px;
+	float:right;
+	width:70%;
+	line-height:1.5;
+	text-align: justify;
+	padding-top:5px;
+}
+
+section{
+	border-bottom: lightgray thin solid;
+	padding-bottom: 25px;
+	padding-top: 52px;
+}
+.foto{
+	width: 500px;
+}
+h1:hover{
+	color: blue;
+}
+
+footer{
+	background-color: #363636;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left:0px;
+	margin-right:0px;
+	float: right;
+	width: 100%;
+}
+
+footer p{
+	color: #f3f3f3;
+	font-family: Verdana;
+	font-size: 11.5px;
+	text-align: left;
+	margin-left: 35px;
+}
+
+#menu{
+	padding: 0px;
+	float: left;
+	position: fixed;
+	padding-top:55px;
+}
+
+#menu ul{
+	padding: 0px;
+	position: fixed;
+}
+
+#menu ul li{
+	border-bottom: #999999 thin solid;
+	text-align: left;
+	list-style-type: none;		
+}
+
+#menu a:link{
+	font-weight: bold;
+	text-decoration: none; 
+	padding: 8px;
+	display: block;
+	font-size: 12px;
+	font-family: Verdana;
+	color:#B22222;
+}
+
+#menu a:hover{
+	color:green;
+	text-decoration:underline;
+}
+
+#menu a:visited{
+	color:#B22222;
+}
+
+section b{
+	font-size:19px;
+	text-align: center;
+}

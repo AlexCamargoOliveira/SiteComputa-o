@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Desenvolvimento web - Tree</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="css/web.css">
+</head>
+<body>	
+	<header>
+		<a href="sobre.html"><img src="img/tree.png"></a>
+		<nav>
+			<ul id="nav">
+				<li id="home"><a href="index.html"><strong>INÍCIO</strong></a></li>
+				<li id="sobre"><a href="sobre.html"><strong>SOBRE</strong></a></li>
+				<li>
+					<a href="#">CONHEÇA</a>
+					<ul>
+						<li><a href="#">DESENVOLVIMENTO WEB</a></li>
+						<li><a href="governanca.html">GOVERNANÇA DE TI</a></li>
+						<li><a href="seguranca.html">SEGURANÇA DA INFORMAÇÃO</a></li>
+						<li><a href="sistema.html">SISTEMA DE INFORMAÇÃO</a></li>
+						<li><a href="jogos.html">TÓPICOS EM JOGOS DIGITAIS</a></li>
+						<li><a href="topicos.html">TÓPICOS EMERGENTES</a></li>
+					</ul>
+				</li>				
+				<li><a href="contato.html"><strong>CONTATO</strong></a></li>
+			</ul>
+		<nav>
+	</header>
+	<nav id="menu">
+		<ul>					
+			<li> <a href="#dweb">DESENVOLVIMENTO WEB</a></li>
+			<li> <a href="#internet">HISTÓRIA DA INTERNET</a></li>
+			<li> <a href="#html">HTML</a></li>
+		</ul>
+	</nav>
+		
+	<nav id="corpo">
+			<section id="dweb"><b>DESENVOLVIMENTO WEB</b>
+			<br>
+			Muitos não conseguem imaginar uma vida sem internet, sem pesquisas, redes sociais e estar antenado aos acontecimentos que ocorrem ao redor do mundo. Uma entre os principais influenciadores de todo desenvolvimento tecnológico atual para a área da educação, saúde, conhecimento e diversas outras. Para quem desconhece sua história é até difícil imaginar que o verdadeiro motivo por trás de sua origem está muito além da internet que temos hoje.
+			</section>
+			
+			<section id="internet"><b>HISTÓRIA DA INTERNET</b>
+			<br><br>
+			<img src="img/web/guerra.jpg">
+			<br><br>
+			O inicio da história de seu surgimento ocorreu nos Estados Unidos, em meados da década de 60, onde o poderia militar durante a Guerra Fria era fator decisivo para vencer a mesmo. Em prol de evitar possíveis perdas de seus documentos em razão dos ataques, cientistas dos EUA criaram um sistema de redes telefônicas que interligavam seus centros de comando e de pesquisa bélica. Onde as informações eram divididas em pequenos pacotes de dados que permitiam a remontagem da informação original, codificando assim suas informações, para caso houvesse a perda de uma de suas unidades.
+			<br><br>
+			<img src="img/web/arpanet.jpg">
+			<br><br>
+			Nos anos 70, esta tecnologia foi disponibilizada para uso das comunidades acadêmica mundial, criados por eles então os famosos e-mails, através do desenvolvimento de protocolos, um experimento entre agências como a DARPA, entre eles, o TCP/IP e o FTP (File Transfer Protocol, protocolo para transferências de arquivos para a web entre um servidor e um cliente), com a utilização do termo “Internet” em dezembro de 1974. Após a ARPANET(nome ao qual foi dado ao experimento), começou a ganhar fundos e ser desenvolvida, nos anos 90, para fins comerciais, quando começou a popularização desta rede com o advento do modelo de “hipertexto” em 1989. 
+			<br><br>
+			<img src="img/web/timburns.jpg" class="tim">
+			<br><br>
+			Em 1991, foi criado o Hypertext Markup Language(HTML), por Tim Burns Lee, ao qual poderia ser utilizado para criar novos documentos de texto que poderiam ser compartilhados pela rede da internet. Em 1992, Tim, desenvolveu o chamado WWW (World Wide Web). Antes, quando apenas era possível circular textos pela internet, com o WWW se tornou possível a transmissão de imagens, sons e vídeos pela rede, possibilitando maior procura pelo público em geral, visto o grande investimento para este tipo de uso, com a vindo de navegadores que pudessem interpretar com mais desenvoltura estes códigos, como o Netscape(1994). Foi então que, em 1994, foi criado o Cascading Style Sheets(CSS), por Hakon Wium Lie e Bert Bos, com o intuito de facilitar a programação de sites, que na época era muito complexa; ganhando destaque entre os programadores em 1997, como a linguagem que determina a aparência de uma página para a web.
+			<br><br>
+			<img src="img/web/pagina.jpg">
+			<br><br>
+			Estas duas linguagens, HTML e CSS, serão o foco de nosso estudo para o desenvolvimento de sites para a web, iniciando com a introdução a HTML.
+			</section>
+
+			<section id="html"><b>HTML</b>
+			<br>
+			Primeiramente criamos um documento HTML através de um software multiplataforma de edição de texto, como por exemplo o <a href="notepad-plus-plus.org/download/">Notepad++</a> e o <a href="https://www.sublimetext.com/">Sublime Text</a>, criando um novo documento de tipo .html.
+			<br><br>
+			Para começar entenderemos o que é uma tag. Tags são estruturas de linguagem de marcação contendo instruções, tendo uma marca de início (“<”, sinal de menor) e outra de fim (“>”, sinal de maior). Como por exemplo a tag com a instrução html, que possui um início  e um fim, onde dentro destas marcações haverá o conteúdo feito através da linguagem html que será lido pelo navegador web. Alguns tags não apresentam a necessidade de declarar seu fim, como veremos a frente.
+			<br><br>
+			Para reconhecimento do tipo de documento a ser lido por um navegador da web, digita-se a tag: <i>!DOCTYPE html</i>.
+			<br><br>
+			Após a tag html de início e fim e o mesmo para as tags head (onde serão digitados metainformações que poderão ser visualizadas por outros sites) e body (simplesmente o “corpo” do site, onde haverá todo o conteúdo que será lido e visivelmente mostrado pelo navegador a quem acessar esta página).
+			<br><br>
+			Obtendo assim a estrutura como mostrada na imagem a seguir:
+			<br><br>
+			<img src="img/web/htmlpadrao.png">
+			<br><br>
+			Iremos preencher as informações necessárias nos campos vazios de ambas as tags.
+			</section>
+			<section id="dweb"><b>HEAD</b>
+			<br><br>
+			Na tag head poderão ser adicionados tags como:
+			<br><br>
+			<strong>TITLE</strong> - Para adicionar um título ao qual irá aparecer na aba da página em um navegador.
+			<br><br>
+			<strong>META</strong> - Será o responsável pela definição de qualquer informação de metadados, como o atributo “charset”, que pode indicar o formato de codificação de caracteres usado no documento. Como por exemplo:	<i>meta charset="utf-8"</i>.
+			<br><br>
+			<strong>LINK</strong> - Será usado para informar o caminho de determinado documento que será usado para a construção da página, como um documento CSS que precisará dos atributos rel, type e href(devendo conter o caminho para o documento), como no seguinte exemplo:
+			<br>
+			<i>link rel="stylesheet" type="text/css" href="css/style.css"</i>
+			</section>
+			<section id="dweb"><b>BODY</b>
+			<br>
+			Há incontáveis tags a ser utilizadas no “corpo” de um site para maior liberdade para desenvolver sua página, veja a seguir:
+			<br><br>
+			<strong>B</strong> -Texto negrito.<br>
+			<strong>BR</strong> - Quebra de linha.<br>
+			<strong>STRONG</strong> - Texto importante.<br>
+			<strong>I</strong> - Texto em itálico.<br>
+			<strong>EM</strong> - Texto enfâse.<br>
+			<strong>MARK</strong> - Texto marcado.<br>
+			<div>
+			<strong>SMALL</strong> - Texto pequeno.<br>
+			<strong>DEL</strong> - Texto apagado.<br>
+			<strong>INS</strong> - Texto inserido.<br>
+			<strong>SUB</strong> - Texto subscrito.<br>
+			<strong>SUP</strong> - Texto superscrito.<br>
+			<strong>ABBR</strong> - Define uma abreviação ou acrônimo.<br>
+			<strong>ADDRESS</strong> - Para endereço.<br>
+			<strong>BDO</strong> (dir="rtl"/"ltr") - Texto da direita para a esquerda.<br>
+			<strong>BLOCKQUOTE</strong> (cite=”site da fonte”) - Texto de citação com fonte.<br>
+			<strong>CITE</strong> - Texto de citação.<br>
+			<strong>Q</strong> - Texto entre aspas.<br>
+			<strong>NAV</strong> - Define o navegador do site.<br>
+			<strong>TABLE</strong> - Gerar uma tabela.<br>
+			<strong>TR</strong> - Gerar a linha de uma tabela.<br>
+			<strong>TH</strong> - Gerar cabeçalho da tabela.<br>
+			<strong>TD</strong> - Gerar célula de uma tabela.<br>
+			<strong>UL</strong> - Gerar lista não-ordenada.<br>
+			<strong>OL</strong> - Gerar lista ordenada. Ao utilizar o atriputo type, pode-se alterar o tipo de ordem da lista, como para letras (a) e números romanos (I). Como a seguir: <i>ol type="a"</i>.<br>
+			<strong>LI</strong> - Gerar um item para uma lista.<br>
+			<strong>DL</strong> - Gerar lista detalhada.<br>
+			<strong>DT</strong> - Gerar item da lista detalhada.<br>
+			<strong>DD</strong> - Gerar detalhe do item da lista detalhada.<br>
+			</div>
+
+			</section>
+
+			
+	</nav>
+	<footer id="rodape"><p>Todos os direitos reservados.</p></footer>
+</body>
+</html>
