@@ -1,2 +1,2 @@
-# SiteComputa-o
-Resumo de áreas de TI
+# SiteComputacao
+Este projeto apresenta algumas áreas da computação, tendo como público novos ingressantes.
